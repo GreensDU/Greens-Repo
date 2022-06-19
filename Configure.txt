@@ -665,3 +665,5 @@ UID: SA PW: OfficeNewSql543%$&
 WIN-ONDMT4I5R10
 32100
 114.134.93.150
+
+Test purpose
