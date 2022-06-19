@@ -1,0 +1,667 @@
+SQLServerManager13.msc
+
+Type cmd in runIIS on Windows Server 2016
+
+Create New user
+net user username password /ADD
+
+To change Password
+net user Administrator *
+
+Activate disabled User 
+net user administrator /active:yes
+
+To check Password Expire
+net user Administrator | findstr /C:expires
+
+To Set Password Expire Never
+net accounts /maxpwage:unlimited
+
+Adminstrator Group
+net localgroup administrators IqraSQL /add
+
+Account lockout threshold  (gpedit.msc)
+Computer Configuration\Windows Settings\Security Settings\Account Policies\Account Lockout Policy
+
+Computer ID
+/LicenceArea/Licence/ComputerDetails
+
+New Alias
+Alias Name: IQRASYSSERVER Port: 10433
+Server: 114.134.93.150
+
+https://www.top-password.com/blog/set-password-to-never-expire-for-windows-local-account/
+
+###Lazz Pharma Satmosjid Road
+Administrator, PW: LPSatmosjid!@#123
+net user AdmLazzDhan Iqra!dhje13 /ADD
+net user IqraAdmin Iqra!dhje13 /ADD
+net user ClintUser Fhgjhghr23@ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user AdmLazzDhan | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators AdmLazzDhan /add
+SQL Server Password: Iqra)(*User123
+RD: 103.83.165.154:32165
+Router: PW: admin
+
+###Heal Pharma
+Desktop ID: Administrator PW: Iqra@123456
+Soft ID: Akash PW: akash
+New ID
+net user IqraAdmin gfhsdg125@# /ADD
+net user ClintUser dfjhsjk@$1254 /ADD
+net user IqraHeal dfsjhsdk!@514 /ADD
+Check Expiary:
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraHeal | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraHeal /add
+SQL Server Password: hfdrg#@#342
+Netgear:  User: admin
+          Password: password
+RDP: 103.166.89.33:35624
+
+###Barisal
+Desktop ID: LazBarisal
+Password: Lazz!@#123Barisal
+net user IqraAdmin Iqra!@#Min321 /ADD
+net user IqraSQL Iqra!@#123SQL /ADD
+net user administrator Admin123!@#
+net user IqraUser Iqra123User!@# /ADD
+net localgroup administrators IqraSQL /add
+New SetUP
+net user brlazz Br!@#zlz123 /ADD
+net user brSQLlaz Laz)(*890SQL /ADD
+net user UserBrIqra Usr*()Br123Iq /ADD
+net localgroup administrators UserBrIqra /add
+net localgroup administrators brSQLlaz /add
+net localgroup administrators brlazz /add
+SqlServer : User : sa, Pass : BR!@#sql123
+RDP : 59.153.18.218:32165
+
+BARISAL NEW SETUP CREDIENTIAL
+59.153.18.218:32165
+net user brlazz Br!@#zlz123 /ADD
+net user brSQLlaz Laz)(*890SQL /ADD
+net user UserBrIqra Usr*()Br123Iq /ADD
+net localgroup administrators UserBrIqra /add
+
+SqlServer :
+User : sa
+Pass : BR!@#sql123
+user : barishal
+Pass : Lazz!@#Bar123
+
+###Uttara
+Desktop ID: Administrator
+Password: Greens!@#123
+New ID
+net user AdmJasimuddin LaZJsM156$#@ /ADD
+net user IqraAdmin gdtjs156$#@ /ADD
+net user ClintUser sowth453#$@ /ADDss
+net user AdmJasimuddin | findstr /C:expires
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net localgroup administrators AdmJasimuddin /add
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+SQL Server Password: djffyg$#%4563
+RDP: 103.91.229.26:56745
+Router: UID:admin  PW:admin00
+
+###Banasree
+Desktop ID: Administrator
+PW: Iqra!@#123
+net user IqraAdmin Iqrdkdh@#324 /ADD
+net user ClintUser hDgye$#654 /ADD
+net user IqraBannasree hdjedn$#756 /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraBannasree | findstr /C:expires
+net user IqraBannasree | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraBannasree /add
+SQL Server Password: DHfdjdx$#!276
+Remotre Desktop: 43.230.120.112:42156
+Router login IP:137.59.51.132:8282
+Router: U:admin PW: admin1a22
+
+###LazzPharma Sylhet
+182.48.69.74:32165
+net user IqraAdmin Iqra!@#Adm32 /ADD
+net user IqraSQL Iqra!@#123SQL /ADD
+net user administrator Admin123)(*
+net user IqraUser Iqra123User!@# /ADD
+net user Cicingfak LaZSyLh#@!123 /ADD
+net user IqraAdmin | findstr /C:expires
+net user IqraSQL | findstr /C:expires
+net user Cicingfak | findstr /C:expires
+net localgroup administrators IqraSQL /add
+net localgroup administrators IqraAdmin /add
+net localgroup administrators Cicingfak /add
+net user IqraUser /active:no
+SqlServer :
+User : sa
+Pass : Iqra!@#User123
+Router: UID:lazz    PW:lazz112233
+
+### RaysahebBazar
+User : LazzRayshabazar
+Pass : L@11223344
+net user administrator Adm123inistrator!@#
+User : IqraAdmin
+Pass : IqraAdm@in
+User : Administrator
+Pass : Lazz@Computer
+net user IqraUser User#@! /ADD
+net localgroup administrators IqraUser /add
+BD 
+pas: IqraAdm@in123
+winbox
+user: iqra
+pass: 123123
+103.116.88.238:32165
+
+### New Banani Pharmacy
+Administrator PW: Banani%$#2312
+New ID
+net user IqraAdmin gDF#@432 /ADD
+net user ClintUser gfjyDF!#@432 /ADD
+net user IqraBanani Bajf$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraBanani | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraBanani /add
+SQL Server Password: Bsjfht$#!324
+Rowter:
+Admin  git123456
+Remote desktop: 103.116.166.161:42164
+New Banani Pharmacy2: 103.116.166.161:4321
+
+###LazzPharma Fokirapull
+58.147.171.86:59679
+user: Administrator PW: Lazz12345678
+New ID
+net user Cicingfak LaZFakiR#@!123 /ADD
+net user IqraAdmin LAZzFaK)(#$06 /ADD
+net user ClintUser LfaKrP($254h /ADD
+net user IqraMain LFkIrP$#^232 /ADD
+net accounts /maxpwage:unlimited
+net user Cicingfak | findstr /C:expires
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraMain | findstr /C:expires
+net localgroup administrators Cicingfak /add
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraMain /add
+SQL Server Password: LaZzFaKP^&(9875
+58.147.171.86:41033
+Router: IP: 58.147.171.86:9900 User: lazz  PW: lazz@321
+
+WinboxIqra123User!@#
+58.147.171.86:9900
+lazz	
+Lazz@2020
+01713659917
+
+###LazzPharma Magbazar
+103.35.171.174:32165
+net user IqraAdmin Iqra!@#Adm321 /ADD
+net user IqraSQL Iqra!@#SQL123 /ADD
+net user administrator Adm!@#inistrator123
+net user IqraAdmin | findstr /C:expires
+net user IqraUser Iqra!@#User123 /ADD
+net localgroup administrators IqraAdmin /add
+
+SqlServer :
+User : sa
+Pass : Iqra!@#User123
+Winbox:
+UID:netview
+PW:admin!@##@!
+
+###Doyel Pharma
+User : IqraSQL
+Pass : Iqra!@#SQL123
+net user IqraSQL | findstr /C:expires
+
+DB Pass: Iqra!@#User123
+
+###Maya Pharmacy
+Administrator PW: Admin@2021
+New ID
+net user IqraAdmin Msfg$#543 /ADD
+net user ClintUser Mjhd!$324 /ADD
+net user IqraMaya Majf$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+SQL Server Password: Msjfht$#!324
+Rowter PW:admin
+Remote desktop: 172.16.11.225:4278
+172.16.10.149:4278
+
+###Lazz Centre
+1/ Administrator PW: Lazz#@!098
+New ID
+net user IqraAdmin Lafg$#543 /ADD
+net user ClintUser Lchd!$324 /ADD
+net user IqraLazzCentre LCtjf$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+SQL Server Password: Lctrjfht$#!324
+Rowter ID: admin PW:LazzCenter!@#321
+Remote desktop: 122.152.51.234:32165
+2/ Administrator PW: Lazz123#@!
+New ID
+net user Cicingfak LaZZCntR#@!123 /ADD
+net user IqraAdmin Lafg$#543 /ADD
+net user ClintUser Lchd!$324 /ADD
+net user IqraLazzCentre LCtjf$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user Cicingfak | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators Cicingfak /add
+SQL Server Password: Lctrjfht$#!324
+Rowter PW:admin
+Remote desktop: 122.152.51.126:32165
+
+###Lazz Chadpur
+LazzPharma Chandpur
+103.114.97.33:32165
+net user IqraAdmin Iqra!@#Admin321
+net user IqraSQL Iqra!@#SQL123 /ADD
+net user administrator Adm!@#inistrator123
+net user IqraUser Iqra!@#User123 /ADD
+net localgroup administrators IqraSQL /add
+
+SqlServer :
+User : sa
+Pass : Iqra!@#User123
+
+###Shotomul Pharmacy
+net user administrator Shotomul#@!123 /ADD
+ PW: 
+New ID
+net user IqraAdmin Smp$#543 /ADD
+net user ClintUser SmPa!$324 /ADD
+net user IqraShotomul StMtjf$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraShotomul | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraShotomul /add
+SQL Server Password: StMulP$#!324
+Rowter PW:link4d
+Remote desktop: 118.179.18.37:4278
+172.16.10.149:4278
+
+###Lazz32 Main
+user: Administrator PW: Lazz!@#$4321
+New ID
+net user IqraAdmin Lamp$#543 /ADD
+net user ClintUser lAma!$324 /ADD
+net user IqraLazzmain LzMtjf$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraLazzmain | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraLazzmain /add
+SQL Server Password: LaZMain$#!324
+Rowter PW:CNS123
+Remote desktop: 103.85.112.126:3233
+
+###Lazz KalaBagan
+103.121.79.130:1211
+Administrator
+Lazz12345678
+New ID
+net user Cicingfak LaZkALB#@!123 /ADD
+net user IqraAdmin Lkb$#@098 /ADD
+net user ClintUser Clnt$#@234 /ADD
+net user IqraLazzmain Iqra$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user Cicingfak | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators Lazzadmin /add
+net localgroup administrators Cicingfak /add
+SQL Server Password: Iqra!@#987
+Remote desktop: 103.121.79.130:1211
+Router: UID:Admin   PW:admin
+
+### WellCare Pharma
+net user Administrator Adm!@#321 /ADD
+ PW: 
+New ID
+net user IqraAdmin Wcp$#543 /ADD
+net user ClintUser WcpPa!$324 /ADD
+net user IqraWellCare WCpMtjf$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraWellCare | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraWellCare /add
+SQL Server Password: WcPP$#!324
+Rowter ID:murad PW:1234
+IP: http://103.85.194.177:2020/
+Remote desktop: 103.85.194.177:4278
+
+### Click Pharma
+net user Administrator ClickPharma#@!123 /ADD
+ PW: 
+New ID
+net user IqraAdmin CP$#543 /ADD
+net user ClintUser cPPa!$324 /ADD
+net user IqraClick IcpMtjf$#231$ /ADD
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraWellCare | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraClick /add
+SQL Server Password: ClPh$#!325
+Rowter UID:admin  PW:support123
+Remote desktop: 45.120.115.102:4278
+
+## KonaPara
+user: Administrator PW: Lazz!@#Kona321
+New ID
+net user IqraAdmin Lkgh)(#$32 /ADD
+net user ClintUser lK($234h /ADD
+net user LazzKona lK($133h /ADD
+net user IqraLazzmain LK$#^542 /ADD
+net user IqraLazzmain /active:yes
+net accounts /maxpwage:unlimited
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user LazzKona | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators LazzKona /add
+SQL Server Password: LaZKoNa$#!334
+Rowter PW:admin123
+Remote desktop:103.100.235.108:42314
+
+##LazzDMCH
+http://103.231.161.70:32165
+User:Administrator
+Pass:SsRrAaNn!@#123
+net user IqraAdmin Iqra!@#Admin123 /ADD
+net localgroup administrators IqraAdmin /add
+net user IqraUser Iqra321User#@! /ADD
+net localgroup administrators IqraUser /add
+
+DataBase : User > sa, Pass > Asdf1234
+DataBase : User > IqraDB, Pass > Iqra123456
+UID:murad PW: sagor12345
+
+## Life Care BD
+user: Administrator PW: LifeCareBD&*^786
+New ID
+net user IqraAdmin Lkgh)(#$34 /ADD
+net user ClintUser lK($218h /ADD
+net user IqraLazzmain LK$#^532 /ADD
+net accounts /maxpwage:unlimited
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraLazzmain | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraLazzmain /add
+SQL Server Password: LiCaBD$#!334
+Rowter PW:
+Remote desktop: 
+
+## Lazz Uttara2
+user: Administrator PW: LazzUttara^&*876
+New ID
+net user Uttara2Admin U2Ad)(#$06 /ADD
+net user IqraAdmin LUtrh)(#$06 /ADD
+net user ClintUser Utr($254h /ADD
+net user IqraLazzmain UT$#^232 /ADD
+net accounts /maxpwage:unlimited
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraLazzmain | findstr /C:expires
+net user Uttara2Admin | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraLazzmain /add
+net localgroup administrators Uttara2Admin /add
+SQL Server Password: LazUttAra$#!324
+Rowter PW:admin00
+Remote desktop:103.91.229.2:30389
+
+## Sabha Pharma
+user: Administrator PW: SabhaPharma&*^786
+New ID
+net user IqraAdmin SaPtrh)(#$06 /ADD
+net user ClintUser sAPh($254h /ADD
+net user Iqramain SphU$#^232 /ADD
+net accounts /maxpwage:unlimited
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user Iqramain | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators Iqramain /add
+SQL Server Password: SabPhaU$#!324
+Rowter PW:
+Remote desktop:
+
+## Kazi Pharma
+user: Administrator PW: KaziPharma!@#321
+New ID
+net user IqraAdmin KaPh)(#$06 /ADD
+net user ClintUser KPHmI($254h /ADD
+net user Iqramain kZpRm$#^232 /ADD
+net accounts /maxpwage:unlimited
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user Iqramain | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators Iqramain /add
+SQL Server Password: KaZiPhmU$#!324
+Rowter PW: admin@2022 Email: akashlm26@gmail.com
+Remote desktop:103.168.207.157:42133
+
+## Insaf Medical Hall
+user: Administrator PW: Insaf!@#321
+New ID
+net user InsafMedical2 Insaf!@#321 /ADD
+net user IqraAdmin InSaf)(#$06 /ADD
+net user ClintUser INSafm2($254h /ADD
+net user IqraInsaf inSaFM$#^232 /ADD
+net accounts /maxpwage:unlimited
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user Iqramain | findstr /C:expires
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators Iqramain /add
+net localgroup administrators InsafMedical2 /add
+SQL Server Password: InSfMd2$#!324
+Rowter PW: User:admin  PW:admin
+Remote desktop:103.73.225.147:33089
+
+## Hossain Pharma
+user: Administrator PW: cHoWM#@!123
+New ID
+net user Cicingfak cHoWM#@!123 /ADD
+net user IqraAdmin ChOuD)(#$06 /ADD
+net user ClintUser cHWoM2($254h /ADD
+net user IqraMain chOWUmM$#^232 /ADD
+net accounts /maxpwage:unlimited
+net user Cicingfak | findstr /C:expires
+net user IqraAdmin | findstr /C:expires
+net user ClintUser | findstr /C:expires
+net user IqraMain | findstr /C:expires
+net localgroup administrators Cicingfak /add
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUser /add
+net localgroup administrators IqraMain /add
+SQL Server Password: CHOdfM2$#!324
+Rowter PW:
+Remote desktop: 103.126.150.98:42560
+
+## Rajbari LazzPharma
+user: Administrator PW: Lazzrajbari!@#123
+New ID
+net user LazzRajbari LazRaJbI#@!143 /ADD
+net user IqraAdmin LZRajB)(#$06 /ADD
+net user ClintUserRaj RajBLaz2($254h /ADD
+net accounts /maxpwage:unlimited
+net user LazzRajbari | findstr /C:expires
+net user IqraAdmin | findstr /C:expires
+net user ClintUserRaj | findstr /C:expires
+net localgroup administrators LazzRajbari /add
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUserRaj /add
+SQL Server Password: LaZzRaj%^*789
+Rowter: usr: LazzRaj PW: Raj1Bary
+Remote desktop: 103.147.166.144:5141
+
+## Gausia LazzPharma
+user: Administrator PW: LazZGau!@#321
+New ID
+net user LazzGausia LAzZGau#@!143 /ADD
+net user IqraAdmin LaZZGuS)(#$06 /ADD
+net user ClintUserGau laZZGoS($254h /ADD
+net accounts /maxpwage:unlimited
+net user LazzGausia | findstr /C:expires
+net user IqraAdmin | findstr /C:expires
+net user ClintUserGau | findstr /C:expires
+net localgroup administrators LazzGausia /add
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUserGau /add
+SQL Server Password: LaZzGaUs%^*789
+Rowter PW: UID:admin   PW:admin123
+Remote desktop: 103.216.57.212:4244
+
+## SodaiBari
+user: Administrator PW: SodaiBari!@#123
+New ID
+net user SodaiBari Sodai!@#321 /ADD
+net user IqraAdmin SoBa)(#$06 /ADD
+net user ClintUserSB SoDbr($254h /ADD
+net accounts /maxpwage:unlimited
+net user SodaiBari | findstr /C:expires
+net user IqraAdmin | findstr /C:expires
+net user ClintUserSB | findstr /C:expires
+net localgroup administrators SodaiBari /add
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUserSB /add
+SQL Server Password: SoDBaR%^*789
+Rowter PW:admin1
+Remote desktop: 103.100.234.212:4256
+
+## First Pharma
+user: Administrator PW: FP!@#321
+New ID
+net user FirstPharma FPh!@#$1234 /ADD
+net user IqraAdmin FiPH)(#$06 /ADD
+net user ClintUserFP FiRPhA($254h /ADD
+net accounts /maxpwage:unlimited
+net user FirstPharma | findstr /C:expires
+net user IqraAdmin | findstr /C:expires
+net user ClintUserFP | findstr /C:expires
+net localgroup administrators FirstPharma /add
+net localgroup administrators IqraAdmin /add
+net localgroup administrators ClintUserFP /add
+SQL Server Password: FStPhAr%^*789
+Rowter PW:admin123
+Remote desktop: 103.237.39.217:4259
+
+## Unicare Medical Services
+user: Administrator PW: Admin@123
+New ID
+net user UniCareMediSrv UnIcar)^#$1.34 /ADD
+net user IqraHMSAdmin UmSl)(#$0.659 /ADD
+net user ClintHMSUserUMS ClUmSL($24.8h /ADD
+net accounts /maxpwage:unlimited
+net user UniCareMediSrv | findstr /C:expires
+net user IqraHMSAdmin | findstr /C:expires
+net user ClintHMSUserUMS | findstr /C:expires
+net localgroup administrators UniCareMediSrv /add
+net localgroup administrators IqraHMSAdmin /add
+net localgroup administrators ClintHMSUserUMS /add
+SQL UID & PW:Unicare9Medical@#3Services  UniCarMsL%^*5.26
+SQL Port: 30254
+Rowter ID: netview PW: netview@321
+Remote desktop: 103.85.114.183:42654
+
+## Chowdhury Pharma
+user: Administrator PW: Admin@123
+New ID
+net user ChoWDhUryPh ChPh)^#$3.56 /ADD
+net user IqraCHduRYp CwDLt)(#$0.431 /ADD
+net user ClintChdHuR ClIChp($29.7h /ADD
+net accounts /maxpwage:unlimited
+net user ChoWDhUryPh | findstr /C:expires
+net user IqraCHduRYp | findstr /C:expires
+net user ClintChdHuR | findstr /C:expires
+net localgroup administrators ChoWDhUryPh /add
+net localgroup administrators IqraCHduRYp /add
+net localgroup administrators ClintChdHuR /add
+SQL UID & PW:ChowdhuRy@#Pharma  ChowDhu^&*2.354d
+Rowter PW: admin123
+Remote desktop:103.219.234.6:42489
+
+## Saima Pharmacy
+user: Administrator PW: saima@2022
+New ID
+net user SaiMaPhRm SaIpH)^#$2.65 /ADD
+net user IqraSaiMa SaIPl)(#$4.759 /ADD
+net user ClintSaiMa ClSaPl($28.9s /ADD
+net accounts /maxpwage:unlimited
+net user SaiMaPhRm | findstr /C:expires
+net user IqraSaiMa | findstr /C:expires
+net user ClintSaiMa | findstr /C:expires
+net localgroup administrators SaiMaPhRm /add
+net localgroup administrators IqraSaiMa /add
+net localgroup administrators ClintSaiMa /add
+SQL UID & PW:SaiMa@#56PhRCy  SaiPlD^&*1.458S
+Rowter PW: 
+Remote desktop:
+
+###Local Server
+RDP: 114.134.93.150:54321
+IP: 192.168.1.234
+net user Warning!!! Warn!@#$7086!! /ADD
+net user Dangerous!!! DaN*)(#$5!!8!7 /ADD
+net user Restricted!!! R#esTr#($7!69I /ADD
+net accounts /maxpwage:unlimited
+net user Warning!!! | findstr /C:expires
+net user Dangerous!!! | findstr /C:expires
+net user Restricted!!! | findstr /C:expires
+net localgroup administrators Warning!!! /add
+net localgroup administrators Dangerous!!! /add
+net localgroup administrators Restricted!!! /add
+net user IqraAdmin /active:no
+SQL PORT: 3691
+SQL Server Password: Iqra@DataStore2022. PW: IqData@Store#^&.2022
+UID: SA PW: OfficeNewSql543%$&
+
+WIN-ONDMT4I5R10
+32100
+114.134.93.150
